@@ -1,0 +1,21 @@
+@startuml {er.png}
+
+
+package "reducer" {
+    [reducers.js]
+}
+
+package "actions" {
+    [works.js]
+    [record.js]
+}
+
+package "pages" {
+    [measure]
+    [analysis]
+    [works]
+}
+
+package "components" {
+    
+}
